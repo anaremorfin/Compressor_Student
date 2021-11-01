@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libbinaryBuffer.a CMakeFiles/binaryBuffer.dir/binaryBuffer.o CMakeFiles/binaryBuffer.dir/unity.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libbinaryBuffer.a

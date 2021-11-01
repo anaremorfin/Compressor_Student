@@ -1,0 +1,3 @@
+/Users/cesarangelesruiz/Desktop/TDAA2021/Compressor/test/build/CMakeFiles/rebuild_cache.dir
+/Users/cesarangelesruiz/Desktop/TDAA2021/Compressor/test/build/CMakeFiles/edit_cache.dir
+/Users/cesarangelesruiz/Desktop/TDAA2021/Compressor/test/build/CMakeFiles/test_bins.dir

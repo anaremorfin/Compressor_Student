@@ -1,0 +1,4 @@
+/Users/cesarangelesruiz/Desktop/TDAA2021/Compressor/src/build/CMakeFiles/rebuild_cache.dir
+/Users/cesarangelesruiz/Desktop/TDAA2021/Compressor/src/build/CMakeFiles/edit_cache.dir
+/Users/cesarangelesruiz/Desktop/TDAA2021/Compressor/src/build/CMakeFiles/unity.dir
+/Users/cesarangelesruiz/Desktop/TDAA2021/Compressor/src/build/CMakeFiles/binaryBuffer.dir
