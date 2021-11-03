@@ -46,3 +46,16 @@ char* bufferToString(bbuffer32 data, char* string){
    printf"%s\n\n", string);
    return string;
 }
+
+uint8_t getbitn(bbuffer32 data, uint8_t bit_position){
+    uint8_t BIT_ZERO = 0b00000001;
+    uint8_t bit;
+    bit = (( BIT_ZERO << bit_position) & data) >> bit_position;
+    return bit;
+}
+
+uint16_t sizeInBits(size_t data_size){
+    uint16_t size_bits = 0b0000000000000000;
+    size_bits = (uint16_t) data_size;
+    return size_bits;
+}
