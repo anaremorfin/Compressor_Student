@@ -32,3 +32,17 @@ bbuffer32 freeBuffer(bbuffer32 toFree)
     }
     return toFree;
 }
+
+
+char* bufferToString(bbuffer32 data, char* string){
+ 
+   for(int size = (sizeof(*data) * 8) - 1; size >= 0; size--){
+      
+      if((1 << size) & *data)
+         string[((sizeof(*data) * 8) - 1) - size] = '1';
+      else
+         string[((sizeof(*data) * 8) - 1) - size] = '0';
+   }
+   printf"%s\n\n", string);
+   return string;
+}
