@@ -43,7 +43,7 @@ char* bufferToString(bbuffer32 data, char* string){
       else
          string[((sizeof(*data) * 8) - 1) - size] = '0';
    }
-   printf"%s\n\n", string);
+   printf("%s\n\n", string);
    return string;
 }
 
